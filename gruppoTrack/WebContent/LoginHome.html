@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+body {
+	font-family: arial;
+	padding: 40px;
+	margin: 0;
+	background: #19a2c9;
+	color: #fff;
+}
+</style>
+</head>
+<body>
+<H1>Benvenuto!</H1>
+	<FORM METHOD="GET" ACTION="ServletHome">
+	 <fieldset>
+    <legend>Accesso utenti autorizzati</legend><br /><br />
+		Username: <INPUT TYPE="text" NAME="username" SIZE="25" MAXLENGTH="100" placeholder= "Enter username" required > <BR> <BR>
+		Password: <INPUT TYPE="password" NAME="password" SIZE="25" MAXLENGTH="100" placeholder= "Enter password" required> <BR> <BR>
+		<INPUT TYPE="submit" VALUE="Login">
+		<INPUT TYPE="checkbox" CHECKED>  Remember me <BR> <BR>
+				 
+				 </fieldset>
+		</FORM>
+		<FORM METHOD="Post" ACTION="ServletHome">
+		<input type="submit" value="Nuova registrazione" />
+		</FORM>
+
+	
+	
+</body>
+</html>
